@@ -13,13 +13,23 @@
   </head>
   <body>
     <h1>Fetching Data and Handling Promises with Callbacks</h1>
-    <form action="">
+    <form action="" class="d-flex">
       <div class="card" style="width: 18rem">
-        <input type="text" placeholder="Enter your favorite pokemon" id="pokeInput">
+        <input
+          type="text"
+          placeholder="Enter your favorite pokemon"
+          id="pokeInput"
+        />
         <img src="" class="card-img-top" alt="Pokemon Picture" />
         <div class="card-body">
           <h5 class="card-title"></h5>
           <button class="btn btn-primary">Get Pokemon</button>
+        </div>
+      </div>
+      <div class="card enemy-poke-card" style="width: 18rem; display: none;">
+        <img src="" class="card-img-top" id="enemy-poke-image" alt="Pokemon Picture" />
+        <div class="card-body">
+          <h5 class="card-title" id="enemy-poke-title"></h5>
         </div>
       </div>
     </form>
